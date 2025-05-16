@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body
+{
+    background-color: rgb(233, 232, 237);
+}
+
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    word-break: break-word;
+  }
+  
+  .todo .flex-grow {
+    flex-grow: 1;
+    word-break: break-word;
+  }
+  
+
+  
